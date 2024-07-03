@@ -12,6 +12,7 @@ This project fetches a user's Spotify listening data and creates visualizations 
 ## Installation
 
 1. Clone the repository:
+   https://github.com/PrathamSatpute/BeatCapsule.git
 
 2. Create a virtual environment and activate it:
    python -m venv venv
