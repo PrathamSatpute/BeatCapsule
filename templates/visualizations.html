@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Visualizations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Your Spotify Visualizations</h1>
+    
+    <h2>Top Artists</h2>
+    <img src="data:image/png;base64,{{ visualizations['top_artists'] }}" alt="Top Artists Chart">
+    
+    <h2>Listening Time</h2>
+    <img src="data:image/png;base64,{{ visualizations['listening_time'] }}" alt="Listening Time Chart">
+</body>
+</html>
